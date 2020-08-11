@@ -1,0 +1,12 @@
+.c-nav{
+
+}
+
+.c-nav__link{
+    color: var(--global-textColor);
+    text-decoration: none;
+
+    & + & {
+        margin-left: .5rem;
+    }
+}

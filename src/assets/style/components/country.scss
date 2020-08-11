@@ -1,0 +1,51 @@
+.c-country {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 15px;
+	cursor: pointer;
+}
+
+.c-country__flag {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.c-country__flag--image {
+	max-width: 25px;
+	display: block;
+	height: auto;
+	margin-right: 0.5rem;
+	&::after {
+		margin-right: 5px;
+	}
+}
+
+.c-country__title {
+	margin-top: -25px;
+	margin-left: 50px;
+	align-self: flex-start;
+	font-size: 1rem;
+}
+
+.c-country__info {
+	clear: left;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+.c-country__info--text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.c-country__info--title {
+	font-weight: bold;
+}
+
+.c-country__img {
+	display: block;
+	height: auto;
+}
